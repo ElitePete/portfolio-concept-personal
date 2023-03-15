@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/navbar-component/navbar-component.js'
 import Hero from './components/hero-component/hero-component.jsx'
 import About from "./components/about-component/about-component"
+import ProjectShowcase from "./components/projects-component/projects-component"
 
 const App = () => {
 
@@ -18,7 +19,10 @@ const App = () => {
       <Hero />
       
       </div>
+      
       <About />
+
+      <ProjectShowcase />
 
 </div>
   );

@@ -6,16 +6,19 @@
   margin: 0;
   transition: transform 0.8s ease-in-out;
   transition: color 0.8s ease-in-out;
+  user-select: none;
+  color: rgb(255, 255, 255, .5);
 }
 .hero-title:hover {
   transform: translateY(-3px);
-  color: #5EE3EE;
+  color: RGB(94, 227, 238);
 
 }
 .hero-text{
   font-family: 'Satisfy', cursive;
   letter-spacing: 2px;
   font-size: 25px;
+  user-select: none;
 }
 .hero {
     position: relative;
@@ -25,7 +28,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 500px;
+    min-height: 900px;
     display: flex;
   }
   
@@ -40,6 +43,10 @@
   }
   
   @media (max-width: 768px) {
+    .hero {
+      min-height: 650px;
+    }
+    
     .hero-title{
       font-family: 'Rampart One', cursive;
       font-weight: normal;
